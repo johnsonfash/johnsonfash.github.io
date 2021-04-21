@@ -125,25 +125,21 @@
           parameters: [
             "animation-duration: 1s"
           ],
-          25: {
+          from: {
             transform: "rotate(30deg)"
           },
-          50: [ "transform: rotate(0deg)" ],
-          75: ["transform: rotate(-30deg)"]
+          to: [ "transform: rotate(0deg)" ]
         },
         ".three": {
           parameters: {
             animationDuration: "1s",
             animationTimingFunction: "ease-in"
           },
-          0: [
+          from: [
             "transform: translateX(-100px)"
           ],
-          50: [
+          to: [
             "transform: translateX(100px)"
-          ],
-          100: [
-            "transform: translateX(0px)"
           ]
         }
       });
