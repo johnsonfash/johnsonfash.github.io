@@ -19,6 +19,7 @@
     }
 
     article {
+      position: relative;
       background: rgb(255, 255, 255);
       box-sizing: border-box;
       padding: 2em;
@@ -188,14 +189,13 @@
             animationTimingFunction: "ease-in"
           },
           0: [
-            "transform: translateX(-50px)",
+            "left: -500px",
           ],
           50: [
-            "transform: translateX(50px)",
-            "background-color: red"
+            "left: 500px;
           ],
           100: [
-            "transform: translateX(0px)"
+            "left: 0px"
           ]
         },
         ".four": {
