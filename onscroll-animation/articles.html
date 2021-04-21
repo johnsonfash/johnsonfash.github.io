@@ -125,10 +125,8 @@
           parameters: [
             "animation-duration: 1s"
           ],
-          from: {
-            transform: "rotate(30deg)"
-          },
-          to: [ "transform: rotate(0deg)" ]
+          from: ["opacity: 0"],
+          to: [ "opacity: 1"]
         },
         ".three": {
           parameters: {
@@ -136,10 +134,10 @@
             animationTimingFunction: "ease-in"
           },
           from: [
-            "transform: translateX(-100px)"
+            "left: -100px"
           ],
           to: [
-            "transform: translateX(100px)"
+            "left: 100px"
           ]
         }
       });
