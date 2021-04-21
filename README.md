@@ -1,3 +1,3 @@
 # johnsonfash.github.io
 
-repo samples are available here
+Repository samples are available here
