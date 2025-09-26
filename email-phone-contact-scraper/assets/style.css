@@ -29,7 +29,9 @@ header {
 }
 
 header .logo {
+  text-decoration: none;
   font-size: 1.5rem;
+  color: white;
   font-weight: 600;
 }
 
